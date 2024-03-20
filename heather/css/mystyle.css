@@ -1,0 +1,532 @@
+header#masthead {
+  height: 66px;
+  background-color: #31463F;
+  background-image: url(/images/Emancipator_Logo_2c_Reversed%202.png);
+  background-position: center; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:21%;     
+}
+
+footer {
+  height: 380px;
+  background-color: #31463F;
+  margin-top: 40px;
+}
+
+body {
+  margin:0;
+}
+
+
+.entry-header {
+  background-color: #fcfbf5;
+  padding-top: 10px;
+}
+
+.entry-header div.cat-links {
+  font-family: "Staff-Bold",sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  width: 221px;
+  height: 13px;
+  margin: 40px auto 15px auto;
+  padding:17.5px 21px 3.5px 21px;
+  background-image: url(../images/category-shape.png);
+  background-position: center; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:contain; 
+}
+
+.entry-header h1 {
+  font-size: 4em;
+  line-height: 1.4em;
+  text-align: center;
+  color:#111111;
+  font-family: "IvarHeadline-Regular","Georgia",serif;
+  width:100%;
+  max-width: 780px;
+  margin: 0 auto 10px auto;
+  
+}
+
+.entry-header h2 {
+  font-size: 1.4em;
+  line-height: 1.6;
+  text-align: center;
+  color:#111111;
+  font-family: "Staff-Regular","Arial",sans-serif;
+  margin-bottom: 2em;
+  font-weight: 100;
+      width:100%;
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+.entry-header h3 { /* BYLINE */
+  font-family: "Carrie-Regular",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: rgb (81,81,81);
+  text-transform: uppercase;
+}
+
+.entry-header h3 span.name { /* AUTHOR NAME IN BYLINE IS COLOR ROSE */
+  color: #CD395B;
+  margin-right: 10px;
+}
+
+.entry-header .sharedaddy { /* SOCIAL MEDIA BUTTON CONTAINER */
+  height: 55px;
+  width: 128px;
+      margin: 30px auto;
+
+}
+
+.entry-header .sharedaddy span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  background-color: black;
+}
+
+p {
+  font-family:"Georgia",serif;
+  font-size:18px;
+  line-height: 1.6;
+  color:#111111;
+}
+
+div.storytext {
+  width:100%;
+  max-width: 780px;
+  margin: 0 auto 0 auto;
+}
+/*here is mine*/
+
+h1{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: normal;
+}
+p{
+    font-size: large;
+}
+
+.author-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .author-date h3 {
+    margin: 0; /* Remove default margin */
+  }
+
+  .author-date h3:first-child {
+    margin-right: 20px; /* Adjust spacing between the elements */
+  }
+  
+  .image-container img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+.person-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.person-icon {
+    width: 100px;
+    height: 100px;
+    fill: #000; 
+    margin-left: 290px; 
+}
+
+
+
+.speech-bubble {
+    margin-top: -100px;
+    margin-left: 400px; 
+    min-height: 100px;
+    max-width: 800px;
+    font-size: 16px;
+    background-color:#F6F2E1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    word-wrap: break-word; /* Add this line */
+}
+
+.speech-bubble p {
+    margin: 0;
+  }
+
+#text-container {
+    border-right: 3px solid #333;
+    overflow: hidden;
+    margin-right: 5px;
+    padding-right: 10px;
+  }
+
+
+
+.storytext {
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 800px; 
+    
+}
+.smallphoto{
+    margin-left: 20px;
+    
+}
+
+
+
+#human-container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    
+}
+
+#human-icon{
+    animation: walk-and-fall 30s linear forwards; /* Adjust duration and timing function as needed */
+width: 100px;
+transform: translateX(-50%);
+}
+
+@keyframes walk {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(1500%);
+    }
+  }
+  
+  #human-icon {
+    animation: walk 30s linear infinite; /* Adjust animation duration as needed */
+  }
+
+  .big-letter {
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+  }
+
+  
+  .content_image {
+    float: right; /* Float the image to the right */
+    margin-bottom: 10px; /* Add some bottom margin to separate the image from text */
+  }
+
+  .content figcaption {
+    /* Optional: Style for the caption */
+    text-align: right; /* Adjust alignment as needed */
+
+  }
+
+ .container_0 {
+  /* Original styles */
+  background-color: #31463F;
+  padding: 20px;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 30px;
+  /* New styles for flip card */
+  perspective: 1000px; /* Add perspective for 3D effect */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.container_0 .container_0-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s; /* Add transition effect for smooth flipping */
+  transform-style: preserve-3d; /* Preserve 3D transformation of inner elements */
+}
+
+.container_0:hover .container_0-inner {
+  transform: rotateY(180deg);
+}
+
+.container_0-front,
+.container_0-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.container_0-front {
+  background-color: #31463F;
+  color: white;
+  transform: rotateY(0deg); /* Initially hide the back side */
+}
+
+.container_0-back {
+  background-color: #31463F;
+  color: white;
+  transform: rotateY(180deg); /* Initially show the back side */
+}
+
+
+/*.container_0{
+    background-color: 
+    #31463F;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    text-align: left;
+    margin-bottom: 20px; 
+    height: 30px; ;
+      }*/
+
+.container_0 p {
+        display: inline-block; 
+        text-align: center; 
+        margin-top: -10px; 
+      }
+.container_text {
+    width: 450px;
+    font-size: larger;
+    font-weight: bold;
+    
+}   
+.h2_1{
+    text-align: left;
+} 
+.bStory{
+  background-color: #F6F2E1
+  ;
+}
+
+/* #scroll {
+  position: relative;
+}
+.scroll__graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  width: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.scroll__graphic.is-fixed {
+  position: fixed;
+}
+
+.scroll__graphic.is-bottom {
+  bottom: 0;
+  top: auto;
+}
+.scroll__graphic .chart {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.scroll__text {
+  padding: 0 1rem;
+  max-width: 30rem;
+}
+
+.step {
+  opacity: 0;
+  padding: 1rem;
+}
+
+.step.is-active {
+  opacity: 1;
+}
+.scrollama__debug-step{
+  display: none;
+} */
+
+/*#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f3f3f3;
+  padding: 1rem;
+}
+
+#scrolly>* {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 20rem;
+}
+
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  background-color: #8a8a8a;
+  z-index: 0;
+}
+
+figure p {
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  background-color: goldenrod;
+  color: #3b3b3b;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}*/
+
+#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F6F2E1;
+  padding: 1rem;
+}
+
+#scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 20rem;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  background-color: #39341e;
+  z-index: 0;
+  top: 12.5vh;
+  height: 75vh;
+  /* Center everything inside */
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: center; /* Center items horizontally */
+}
+
+.sticky-thing p {
+  font-size: 50px;
+  color: #F6F2E1;
+  text-align: center; /* Align text horizontally to the center */
+}
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.step[data-step="Basic Assessment"] p {
+  font-size: 16px; /* Change the font size to your desired value */
+}
+.step[data-step="Discussion"] p {
+  font-size: 16px; /* Change the font size to your desired value */
+}
+.step[data-step="Decision but maybe more…"] p {
+  font-size: 16px; /* Change the font size to your desired value */
+}
+
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active {
+  background-color: goldenrod;
+  color: #3b3b3b;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.scrollama__debug-step{
+  display: none;
+}
+.bStory_0{
+  font-size: 16px;
+  margin-top: -70px;
+  background-color: #F6F2E1;
+}
+
+.sticky-thing svg {
+  width: 50%; /* Adjust the size as needed */
+}
+
