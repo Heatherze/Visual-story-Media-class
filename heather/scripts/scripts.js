@@ -1,6 +1,6 @@
 
 
-const speed = 50; // typing speed in milliseconds
+const speed = 20; // typing speed in milliseconds
 
 // Function to trigger self-typing animation
 function triggerTypingAnimation(entries, observer) {
@@ -72,6 +72,45 @@ function typeWriter(text, targetElement) {
     type();
 }
 
+
+
+//self-typing 3
+
+//self-typing 2
+const speed_1 = 50; // typing speed in milliseconds
+
+// Function to trigger self-typing animation
+function triggerTypingAnimation(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const textElement = entry.target.querySelector('.self-typing');
+            const text = textElement.dataset.text;
+            typeWriter(text, textElement);
+            observer.unobserve(entry.target);
+        }
+    });
+}
+
+// Observer setup
+const observer_1 = new IntersectionObserver(triggerTypingAnimation, { threshold: 1 }); // Change threshold value as needed
+
+// Observe all speech bubbles
+document.querySelectorAll('.speech-bubble_2').forEach(bubble => {
+    observer.observe(bubble);
+});
+
+// Self-typing function
+function typeWriter(text, targetElement) {
+    let index = 0;
+    function type() {
+        if (index < text.length) {
+            targetElement.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(type, speed);
+        }
+    }
+    type();
+}
 //scroll telling 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -83,9 +122,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Define image paths
   var imagePaths = [
-    "images/assesment.png",
-    "images/message.png",
-    "images/menu.png"
+    "images/basic assesment1.png",
+    "images/Discussion.png",
+    "images/decision.png"
   ];
 
   // Initialize index for imagePaths
@@ -154,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // UHM 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle0 = document.querySelector('.circle.circle_0');
+ const circle0 = document.querySelector('.rectangle_U.rectangle_U1');
 
   const rectangle0 = document.querySelector('.rectangle.rectangle_0');
   const rectangle1 = document.querySelector('.rectangle.rectangle_1');
@@ -183,7 +222,7 @@ circle0.addEventListener('mouseleave', function() {
 //UIUC 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle1 = document.querySelector('.circle.circle_1');
+ const circle1 = document.querySelector('.rectangle_U.rectangle_U2');
 
   const rectangle0 = document.querySelector('.rectangle.rectangle_0');
   const rectangle2 = document.querySelector('.rectangle.rectangle_2');
@@ -219,7 +258,7 @@ circle1.addEventListener('mouseleave', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle2_1 = document.querySelector('.circle.circle_3');
+ const circle2_1 = document.querySelector('.rectangle_U.rectangle_U4');
 
   const rectangle0 = document.querySelector('.rectangle.rectangle_0');
   const rectangle2 = document.querySelector('.rectangle.rectangle_2');
@@ -261,7 +300,7 @@ circle2_1.addEventListener('mouseleave', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle2 = document.querySelector('.circle.circle_2');
+ const circle2 = document.querySelector('.rectangle_U.rectangle_U3');
 
   const rectangle0 = document.querySelector('.rectangle.rectangle_0');
   const rectangle2 = document.querySelector('.rectangle.rectangle_2');
