@@ -1,0 +1,1046 @@
+/* --------------  LOAD FONTS FROM SERVER ------------------------------ */
+/* ---- The font-family defines the name that will be used in CSS ------ */ 
+/* --------along with a source with location and  font file name ---- */
+
+@font-face {
+ font-family: "IvarHeadline-Regular";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarHeadline-Regular.woff2);
+}  
+
+@font-face {
+ font-family: "IvarHeadline-Italic";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarHeadline-Italic.woff2);
+} 
+
+@font-face {
+ font-family: "IvarHeadline-Bold";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarHeadline-Bold.woff2);
+}  
+
+@font-face {
+ font-family: "IvarHeadline-BoldItalic";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarHeadline-Italic.woff2);
+} 
+
+@font-face {
+ font-family: "IvarText-Regular";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarText-Regular.woff2);
+} 
+
+@font-face {
+ font-family: "IvarText-Italic";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarText-Regular.woff2);
+}
+
+@font-face {
+ font-family: "IvarText-Bold";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/IvarText-Bold.woff2);
+}
+
+@font-face {
+ font-family: "Staff-Regular";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/Staff-Regular.woff2);
+}  
+
+@font-face {
+ font-family: "Staff-Italic";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/Staff-Italic.woff2);
+} 
+
+@font-face {
+ font-family: "Staff-Bold";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/Staff-Bold.woff2);
+}  
+
+@font-face {
+ font-family: "Staff-BoldItalic";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/Staff-BoldItalic.woff2);
+} 
+
+@font-face {
+ font-family: "Carrie-Regular";
+  src: url(https://mediainnovation.camd.northeastern.edu/2022/emancipator/fonts/VTCCarrie-Regular.woff2);
+} 
+
+/* ------------------ EMANCIPATOR COLORS ---------------------------------------- */
+/* FOREST #31463F */
+/* ROSE #CD395B */
+/* FOREST #31463F */
+/* PINK #F6B0A0 */
+/* PUTTY #F6F2E1 */
+/* SKY #BADEFC */
+/* BLACK #1C1C1C */
+/* HIGHLIGHTER #EBF95*/
+/* gold #FBC24C */
+
+
+header#masthead {
+  height: 66px;
+  background-color: #31463F;
+  background-image: url(/images/Emancipator_Logo_2c_Reversed%202.png);
+  background-position: center; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:21%;     
+}
+
+footer {
+  height: 380px;
+  background-color: #31463F;
+  margin-top: 40px;
+}
+
+body {
+  margin:0;
+}
+
+
+.entry-header {
+  background-color: #fcfbf5;
+  padding-top: 10px;
+}
+
+.entry-header div.cat-links {
+  font-family: "Staff-Bold",sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  width: 221px;
+  height: 13px;
+  margin: 40px auto 15px auto;
+  padding:17.5px 21px 3.5px 21px;
+  background-image: url(../images/category-shape.png);
+  background-position: center; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:contain; 
+}
+
+.entry-header h1 {
+  font-size: 4em;
+  line-height: 1.4em;
+  text-align: center;
+  color:#111111;
+  font-family: "IvarHeadline-Regular","Georgia",serif;
+  width:100%;
+  max-width: 780px;
+  margin: 0 auto 10px auto;
+  
+}
+
+.entry-header h2 {
+  font-size: 1.4em;
+  line-height: 1.6;
+  text-align: center;
+  color:#111111;
+  font-family: "Staff-Regular","Arial",sans-serif;
+  margin-bottom: 2em;
+  font-weight: 100;
+      width:100%;
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+.entry-header h3 { /* BYLINE */
+  font-family: "Carrie-Regular",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: rgb (81,81,81);
+  text-transform: uppercase;
+}
+
+.entry-header h3 span.name { /* AUTHOR NAME IN BYLINE IS COLOR ROSE */
+  color: #CD395B;
+  margin-right: 10px;
+}
+
+.entry-header .sharedaddy { /* SOCIAL MEDIA BUTTON CONTAINER */
+  height: 55px;
+  width: 128px;
+      margin: 30px auto;
+
+}
+
+.entry-header .sharedaddy span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  background-color: black;
+}
+h4 {
+  font-family: "Staff-Regular","Arial",sans-serif;
+  font-size: 24px;
+}
+
+
+p {
+  font-family:"Georgia",serif;
+  font-size:18px;
+  line-height: 1.6;
+  color:#111111;
+}
+
+div.storytext {
+  width:100%;
+  max-width: 780px;
+  margin: 0 auto 0 auto;
+}
+/*here is mine*/
+
+
+
+.author-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .author-date h3 {
+    margin: 0; /* Remove default margin */
+  }
+
+  .author-date h3:first-child {
+    margin-right: 20px; /* Adjust spacing between the elements */
+  }
+  
+  .image-container img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+
+
+.person-icon-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 10%; /* You can adjust this percentage as needed */
+
+}
+
+
+.Kayla{
+  margin-left: -10%;
+  margin-top: -10%;
+}
+.Kayla_4{
+  margin-left: -5%;
+  margin-top: -7%;
+  margin-bottom: 3%;
+}
+
+.person-icon {
+    width: 100px;
+    height: 100px;
+    margin: left -20%;
+    fill: #000; 
+}
+
+
+
+.speech-bubble {
+    min-height: 80px;
+    max-width: 800px;
+    margin-left: 17%;
+    margin-top:-15% ;
+    font-size: 16px;
+    background-color:#F6F2E1;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: large;
+    word-wrap: break-word; /* Add this line */  
+}
+
+.speech-bubble_1{
+  min-height: 80px;
+  max-width: 800px;
+  margin-left: 15%;
+  margin-top:-22% ;
+  font-size: 16px;
+  background-color:#F6F2E1;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: large;
+  word-wrap: break-word;
+}
+
+.speech-bubble_2{
+  min-height: 80px;
+  max-width: 800px;
+  margin-left: 15%;
+  margin-top: -10%;
+  font-size: 16px;
+  background-color:#F6F2E1;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: large;
+  word-wrap: break-word;
+}
+
+
+.speech-bubble p {
+    margin: 0;
+  }
+
+#text-container {
+    border-right: 3px solid #333;
+    overflow: hidden;
+    margin-right: 5px;
+    padding-right: 10px;
+  }
+
+.self-typing{ /* speech bubble text */
+  font-family: "Staff-Bold","Arial",sans-serif;
+    font-size: 16px;
+  line-height: 1.5; 
+  color: #31463F;
+    padding: 20px;
+}
+
+
+
+.Kstory{
+  text-align: left; 
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 80%;
+}
+
+
+.storytext {
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 800px; 
+    font-family: "IvarText-Regular","Georgia",serif;
+    
+}
+.smallphoto{
+    margin-left: 20px;
+    
+}
+
+
+
+#human-container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    
+}
+
+#human-icon{
+    animation: walk-and-fall 30s linear forwards; /* Adjust duration and timing function as needed */
+width: 100px;
+transform: translateX(-50%);
+}
+
+@keyframes walk {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(1500%);
+    }
+  }
+  
+  #human-icon {
+    animation: walk 30s linear infinite; /* Adjust animation duration as needed */
+  }
+
+  .big-letter {
+    font-size: 50px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    float: left; /* Set the float property to left */
+    margin-top: -2%;
+    margin-bottom: -2%;
+    width: 8%;
+  }
+
+  
+
+  .content_image {
+    float: right;
+    margin-left: 10px; /* Adjust the left margin to create space between the image and the text */
+    margin-bottom: 10px;
+    clear: right; /* Ensure that no floating elements are allowed on the right side */
+    width: 200px; /* Set width of the container */
+  }
+  
+  .content_image img {
+    display: block;
+    width: 100%; /* Set the width of the image to fill the container */
+    height: auto; /* Ensure the image scales proportionally */
+  }
+  
+  .content_image figcaption {
+    text-align: left;
+    width: 100%; /* Set width of figcaption to fill the container */
+  }
+
+/*GAME*/
+.game_container {
+  position: relative;
+  height: 500px; 
+  width: 100%;
+  background-color: #F6F2E1
+  ;
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 5%;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .game_container {
+    height: 800px; /* Adjust the height as needed for mobile devices */
+  }
+}
+
+.kaylaText{
+  font-family:"Staff-Bold","Arial",sans-serif;
+  font-size: 14px;
+}
+
+.kaylaSubhead{
+  font-family:"Staff-Bold","Arial",sans-serif;
+  font-size: 20px;
+}
+
+
+
+
+
+/* Position rectangles around the center */
+.rectangle {
+  position: absolute;
+  width: 10%;
+  font-family:Staff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center-align text */
+    padding: 10px;
+    border: 3px solid #F6F2E1 ; /* border will not be visiable until hover when class=highlight is applied */
+
+}
+
+
+/* Center rectangle */
+.rectangle_center {
+  position: absolute;
+  width: 10%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; 
+  /* Center rectangle has no background color */
+
+}
+.rectangle_0 {
+  top: 35%;
+  left: 30%;
+  width: 6%;
+
+}
+
+.rectangle_1 {
+  top: 28%;
+  left: 50%;
+  width: 6%;
+  transform: translateX(-90%);
+}
+
+.rectangle_2 {
+  top: 35%;
+  right: 30%;
+  width: 10%;
+}
+
+.rectangle_3 {
+  top: 60%;
+  left: 20%;
+  width: 10%;
+  transform: translateY(-50%);
+}
+
+.rectangle_5 {
+  top: 60%;
+  right: 20%;
+ width: 8%;
+  transform: translateY(-50%);
+}
+
+.rectangle_6 {
+  top: 65%;
+  left: 30%;
+  width: 10%;
+}
+
+.rectangle_7 {
+  top: 75%;
+  left: 55%;
+  width: 9%;
+
+  transform: translateX(-90%);
+}
+
+.rectangle_8 {
+  top: 70%;
+  right: 30%;
+  width: 10%;
+}
+
+
+
+
+
+ 
+.rectangle_U {
+  display: flex;
+  width: 75%;
+  height: 13%;
+  margin-left: 10%;
+}
+
+.rectangle_U1,
+.rectangle_U2,
+.rectangle_U3,
+.rectangle_U4 {
+  flex: 1; /* Distribute available space evenly among rectangles */
+  background-color:#31463F; /* Set individual background color */
+  padding: 10px; /* Optional: Set padding */
+  box-sizing: border-box; /* Include padding in width calculation */
+  margin-right: 5%; /* Add margin between rectangles */
+  color:white;
+  border-radius: 10px;
+  font-family: "Staff-Regular","Arial",serif;;
+  transition: background-color 0.2s; /* Add transition for smooth effect */
+}
+
+.rectangle_U1:hover,
+.rectangle_U2:hover,
+.rectangle_U3:hover,
+.rectangle_U4:hover {
+  background-color:#FBC24C; /* Change background color on hover */
+}
+
+
+
+/* Remove margin from the last rectangle to prevent extra space */
+.rectangle_U4 {
+  margin-right: 0;
+}
+
+
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+  .rectangle_U{
+    flex-direction: column; /* Stack items vertically */
+    width: 90%; /* Full width on smaller screens */
+    margin-bottom: 25%;
+  }
+
+  .rectangle_U1,
+  .rectangle_U2,
+  .rectangle_U3,
+  .rectangle_U4 {
+    width: 90%; /* Full width for each rectangle */
+    margin-top: 3%;
+  }
+}
+
+
+
+
+
+
+
+
+.text-replacement {
+  display: none; /* Initially hide the text replacement */
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .text-replacement {
+      display: block; /* Show the text replacement on mobile */
+  }
+  /* Hide the images on mobile */
+  .rectangle {
+      display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Position rectangles around the center */
+/*.rectangle_0 {
+  top: 45%;
+  left: 20%;
+}
+
+.rectangle_1 {
+  top: 30%;
+  left: 50%;
+  width: 150px;
+  height: 50px;
+  transform: translateX(-90%);
+}
+
+.rectangle_2 {
+  top: 40%;
+  right: 30%;
+}
+
+.rectangle_3 {
+  top: 65%;
+  left: 20%;
+  width: 160px;
+  height: 50px;
+  transform: translateY(-50%);
+}
+
+
+.rectangle_5 {
+  top: 65%;
+  right: 30%;
+  width: 140px;
+  height: 50px;
+  transform: translateY(-50%);
+}
+
+.rectangle_6 {
+  bottom: 10%;
+  left: 20%;
+}
+
+.rectangle_7 {
+  bottom: 2%;
+  left: 50%;
+  width: 120px;
+  height: 100px;
+  transform: translateX(-90%);
+}
+
+.rectangle_8 {
+  bottom: 10%;
+  right: 30%;
+  width: 130px;
+
+}*/
+
+
+
+.circle {
+  position: absolute;
+  width: 10%;
+  top: 15%%;
+  animation: zoomInOut 3s infinite alternate ease-in-out; /* Apply the zoom in-out animation */
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1); /* Initial scale */
+  }
+  50% {
+    transform: scale(1.1); /* Scale up */
+  }
+  100% {
+    transform: scale(1); /* Back to original scale */
+  }
+}
+
+.circle_0 {
+  width: 7%;
+  right: 70%; /* Adjust horizontal position */
+  top: 15%;
+}
+
+.circle_1 {
+  right: 55%; /* Adjust horizontal position */
+}
+
+.circle_2 {
+  right: 40%; /* Adjust horizontal position */
+}
+
+.circle_3 {
+  right: 25%; /* Adjust horizontal position */
+}
+
+.circle span {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.highlight { /* highlight for schools app interactive */
+border: 3px solid #FBC24C ; /* Change to your desird highlight color */
+}
+
+/*GAME OVER*/
+
+
+
+
+
+ .container_0 {
+  /* Original styles */
+  background-color: #31463F;
+  padding: 20px;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 20px;
+  height: 30px;
+  /* New styles for flip card */
+  perspective: 1000px; /* Add perspective for 3D effect */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.container_0 .container_0-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s; /* Add transition effect for smooth flipping */
+  transform-style: preserve-3d; /* Preserve 3D transformation of inner elements */
+}
+
+.container_0:hover .container_0-inner {
+  transform: rotateY(180deg);
+}
+
+.container_0-front,
+.container_0-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.container_0-front {
+  background-color: #31463F;
+  color: white;
+  transform: rotateY(0deg); /* Initially hide the back side */
+}
+
+.container_0-back {
+  background-color: #31463F;
+  color: white;
+  transform: rotateY(180deg); /* Initially show the back side */
+}
+
+
+/*.container_0{
+    background-color: 
+    #31463F;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    text-align: left;
+    margin-bottom: 20px; 
+    height: 30px; ;
+      }*/
+
+.container_0 p {
+        display: inline-block; 
+        text-align: center; 
+        margin-top: -10px; 
+      }
+.container_text {
+    width: 450px;
+    font-size: larger;
+    font-weight: bold;
+    
+}   
+.h2_1{
+    text-align: left;
+    font-weight: bold;
+} 
+.bStory{
+  background-color: #F6F2E1
+  ;
+}
+
+
+
+#scrolly {
+  position: relative;
+  display: flex;
+  background-color: #F6F2E1;
+  padding: 1rem;
+  margin: 5% auto;;
+  width: 60%;
+}
+
+#scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 80rem;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  z-index: 0;
+  top: 12.5vh;
+  height: 40vh;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: center; /* Center items horizontally */
+
+}
+
+
+
+
+
+
+
+.step {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rem
+
+}
+
+.step[data-step="Basic Assessment"] p {
+  font-size: 14px; 
+  margin-bottom: 10%;
+  
+
+}
+.step[data-step="Discussion"] p {
+  font-size: 14px;
+  margin-bottom: 10%;
+}
+.step[data-step="Discussion but maybe more…"] p {
+  font-size: 14px; 
+  margin-bottom: 10%;
+}
+
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.active {
+  background-color: #FBC24C  ;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.scrollama__debug-step{
+  display: none;
+}
+.bStory_0{
+  font-size: 14px;
+  margin-top: -70px;
+  background-color: #F6F2E1;
+}
+
+
+
+.caption_1{
+  font-size: 14px;
+line-height: 1.5;
+  font-family: "Staff-Regular","Arial",serif;
+    color:#111;
+    margin-top: 10px;
+}
+
+
+   @keyframes walk-animation {
+      -20% { transform: translateX(-20%); }
+      100% { transform: translateX(700%); }
+    }
+  
+    
+    #person {
+      animation: walk-animation 5s steps(30) infinite;
+    } 
+
+.supremecourt{
+  background-color: #F6F2E1
+  ;
+}
+.ending_container{
+  background-color: #F6F2E1;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  border-radius: 5px;
+}
+.ending_image{
+ width: 9%;
+ margin-right: 5%;
+}
+.ending_K{
+margin-left:1rem;
+font-family: staff;
+opacity: 0; /* Initially hide the text */
+  transition: opacity 5s ease; /* Add a transition effect for opacity */
+}
+
+.ending_K.show {
+  opacity: 1; /* Show the text with opacity 1 */
+}
+/*cSS*/
+.supremecourt {
+  width: 100%;
+}
+
+.justice-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 14%;
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.justice {
+  display: flex;
+  align-items: center;
+}
+
+.justice-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.justice-item p {
+  font-family: staff;
+}
+
+.headshot {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.justice-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 14%;
+}
+.justice-container_1{
+  display: flex;
+  align-items: flex-start;
+  margin-left: 19%;
+
+}
+
+.justice {
+  display: flex;
+  align-items: center;
+}
+
+.justice > div {
+  margin: 10px;
+  text-align: center;
+}
+
+.justice p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .justice-container {
+      flex-direction: column; /* Stack the justices */
+      align-items: center; /* Center align */
+  }
+}
+
+
+
+/*audio */
+
+
+@media only screen and (max-width:500px){
+  .audiobox {
+      width: 100%;
+      padding:10px 20px 20px 20px;
+      color: white;
+      display:block;
+      background-color: #31463F;
+      }
+  }
+  
+  @media only screen and (min-width:501px){
+  .audiobox {
+      width: 100%;
+      padding:10px 20px 20px 20px;
+      color: white;
+      display:grid;
+      grid-template-columns: 20% 80%;
+      grid-column-gap: 20px;
+      background-color: #31463F;
+      }
+  }        
+  
+  .audiobox img {
+      width: 100%;
+      margin-top: 20px;
+  }
+  
+  .audioboxright {
+                 padding-right: 20px;
+  }
+  
+  .audioboxright audio {
+      width: 100%; /* Forces audio player to be full width */
+      height: 45px; /* Make player a little bigger */
+  }
+  
+  .audioboxright p {
+      font-family: "Ivar-Regular", "Georgia",serif;
+      font-size: 21px;
+      line-height: 1.3;
+      color: white;
+  }
+  
+   .audioboxright p.signer {
+      font-family: "Staff-Regular", "Arial",sans-serif;
+      font-size: 0.8em;
+       text-align: right;
+       color: #FBC24C;
+  }
