@@ -193,12 +193,12 @@ document.addEventListener('DOMContentLoaded', function() {
 // UHM 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle0 = document.querySelector('.rectangle_U.rectangle_U1');
+ const circle0 = document.querySelector('.rectangle_U1');
 
-  const rectangle0 = document.querySelector('.rectangle.rectangle_0');
-  const rectangle1 = document.querySelector('.rectangle.rectangle_1');
-  const rectangle7 = document.querySelector('.rectangle.rectangle_7');
-  const rectangle8 = document.querySelector('.rectangle.rectangle_8');
+  const rectangle0 = document.querySelector('.rectangle_0');
+  const rectangle1 = document.querySelector('.rectangle_1');
+  const rectangle7 = document.querySelector('.rectangle_7');
+  const rectangle8 = document.querySelector('.rectangle_8');
 
  circle0.addEventListener('mouseenter', function() {
   rectangle0.classList.add('highlight');
@@ -219,18 +219,49 @@ circle0.addEventListener('mouseleave', function() {
 });
 }); 
 
+
+
+// UHM 
+document.addEventListener('DOMContentLoaded', function() {
+  // Attempt to get the element by class name
+ const circle01 = document.querySelector('.rectangle_U1');
+
+  const rectangle0 = document.querySelector('.text0');
+  const rectangle1 = document.querySelector('.text1');
+  const rectangle7 = document.querySelector('.text7');
+  const rectangle8 = document.querySelector('.text8');
+
+ circle01.addEventListener('mouseenter', function() {
+  rectangle0.classList.add('highlight');
+  rectangle1.classList.add('highlight');
+  rectangle7.classList.add('highlight');
+  rectangle8.classList.add('highlight');
+
+
+});
+
+// Add mouseleave event listener to circle_0
+circle01.addEventListener('mouseleave', function() {
+  rectangle0.classList.remove('highlight');
+  rectangle1.classList.remove('highlight');
+  rectangle7.classList.remove('highlight');
+  rectangle8.classList.remove('highlight');
+
+});
+}); 
+
 //UIUC 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle1 = document.querySelector('.rectangle_U.rectangle_U2');
+ const circle1 = document.querySelector('.rectangle_U2');
 
-  const rectangle0 = document.querySelector('.rectangle.rectangle_0');
-  const rectangle2 = document.querySelector('.rectangle.rectangle_2');
+  const rectangle0 = document.querySelector('.rectangle_0');
+  const rectangle2 = document.querySelector('.rectangle_2');
   const rectangle3 = document.querySelector('.rectangle.rectangle_3');
 
-  const rectangle1 = document.querySelector('.rectangle.rectangle_1');
-  const rectangle7 = document.querySelector('.rectangle.rectangle_7');
-  const rectangle8 = document.querySelector('.rectangle.rectangle_8');
+  const rectangle1 = document.querySelector('.rectangle_1');
+  const rectangle7 = document.querySelector('.rectangle_7');
+  const rectangle8 = document.querySelector('.rectangle_8');
 
  circle1.addEventListener('mouseenter', function() {
   rectangle0.classList.add('highlight');
@@ -258,16 +289,16 @@ circle1.addEventListener('mouseleave', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle2_1 = document.querySelector('.rectangle_U.rectangle_U4');
+ const circle2_1 = document.querySelector('.rectangle_U4');
 
-  const rectangle0 = document.querySelector('.rectangle.rectangle_0');
-  const rectangle2 = document.querySelector('.rectangle.rectangle_2');
-  const rectangle3 = document.querySelector('.rectangle.rectangle_3');
-  const rectangle5 = document.querySelector('.rectangle.rectangle_5');
-  const rectangle6 = document.querySelector('.rectangle.rectangle_6');
-  const rectangle1 = document.querySelector('.rectangle.rectangle_1');
-  const rectangle7 = document.querySelector('.rectangle.rectangle_7');
-  const rectangle8 = document.querySelector('.rectangle.rectangle_8');
+  const rectangle0 = document.querySelector('.rectangle_0');
+  const rectangle2 = document.querySelector('.rectangle_2');
+  const rectangle3 = document.querySelector('.rectangle_3');
+  const rectangle5 = document.querySelector('.rectangle_5');
+  const rectangle6 = document.querySelector('.rectangle_6');
+  const rectangle1 = document.querySelector('.rectangle_1');
+  const rectangle7 = document.querySelector('.rectangle_7');
+  const rectangle8 = document.querySelector('.rrectangle_8');
 
  circle2_1.addEventListener('mouseenter', function() {
   rectangle0.classList.add('highlight');
@@ -300,13 +331,13 @@ circle2_1.addEventListener('mouseleave', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
- const circle2 = document.querySelector('.rectangle_U.rectangle_U3');
+ const circle2 = document.querySelector('.rectangle_U3');
 
-  const rectangle0 = document.querySelector('.rectangle.rectangle_0');
-  const rectangle2 = document.querySelector('.rectangle.rectangle_2');
-  const rectangle1 = document.querySelector('.rectangle.rectangle_1');
-  const rectangle7 = document.querySelector('.rectangle.rectangle_7');
-  const rectangle8 = document.querySelector('.rectangle.rectangle_8');
+  const rectangle0 = document.querySelector('.rectangle_0');
+  const rectangle2 = document.querySelector('.rectangle_2');
+  const rectangle1 = document.querySelector('.rectangle_1');
+  const rectangle7 = document.querySelector('.rectangle_7');
+  const rectangle8 = document.querySelector('.rectangle_8');
 
  circle2.addEventListener('mouseenter', function() {
   rectangle0.classList.add('highlight');
