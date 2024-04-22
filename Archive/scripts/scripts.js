@@ -221,7 +221,7 @@ circle0.addEventListener('mouseleave', function() {
 
 
 
-// UHM 
+// UHM - mobile
 document.addEventListener('DOMContentLoaded', function() {
   // Attempt to get the element by class name
  const circle01 = document.querySelector('.rectangle_U1');
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const rectangle0 = document.querySelector('.rectangle_0');
   const rectangle2 = document.querySelector('.rectangle_2');
-  const rectangle3 = document.querySelector('.rectangle.rectangle_3');
+  const rectangle3 = document.querySelector('.rectangle_3');
 
   const rectangle1 = document.querySelector('.rectangle_1');
   const rectangle7 = document.querySelector('.rectangle_7');
@@ -285,6 +285,43 @@ circle1.addEventListener('mouseleave', function() {
 
 });
 }); 
+
+//UIUC mobile
+document.addEventListener('DOMContentLoaded', function() {
+  // Attempt to get the element by class name
+ const circle1_1 = document.querySelector('.rectangle_U2');
+
+  const rectangle0 = document.querySelector('.text0');
+  const rectangle2 = document.querySelector('.text2');
+  const rectangle3 = document.querySelector('.text3');
+
+  const rectangle1 = document.querySelector('.text1');
+  const rectangle7 = document.querySelector('.text7');
+  const rectangle8 = document.querySelector('.text8');
+
+ circle1_1.addEventListener('mouseenter', function() {
+  rectangle0.classList.add('highlight');
+  rectangle1.classList.add('highlight');
+  rectangle7.classList.add('highlight');
+  rectangle8.classList.add('highlight');
+  rectangle2.classList.add('highlight');
+  rectangle3.classList.add('highlight');
+
+
+});
+
+// Add mouseleave event listener to circle_0
+circle1_1.addEventListener('mouseleave', function() {
+  rectangle0.classList.remove('highlight');
+  rectangle1.classList.remove('highlight');
+  rectangle7.classList.remove('highlight');
+  rectangle8.classList.remove('highlight');
+  rectangle2.classList.remove('highlight');
+  rectangle3.classList.remove('highlight');
+
+});
+});
+
 //SL 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -298,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const rectangle6 = document.querySelector('.rectangle_6');
   const rectangle1 = document.querySelector('.rectangle_1');
   const rectangle7 = document.querySelector('.rectangle_7');
-  const rectangle8 = document.querySelector('.rrectangle_8');
+  const rectangle8 = document.querySelector('.rectangle_8');
 
  circle2_1.addEventListener('mouseenter', function() {
   rectangle0.classList.add('highlight');
@@ -315,6 +352,48 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Add mouseleave event listener to circle_0
 circle2_1.addEventListener('mouseleave', function() {
+  rectangle0.classList.remove('highlight');
+  rectangle1.classList.remove('highlight');
+  rectangle7.classList.remove('highlight');
+  rectangle8.classList.remove('highlight');
+  rectangle2.classList.remove('highlight');
+  rectangle3.classList.remove('highlight');
+  rectangle5.classList.remove('highlight');
+  rectangle6.classList.remove('highlight');
+
+});
+}); 
+
+//SL mobile 
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Attempt to get the element by class name
+ const circle2_1_1 = document.querySelector('.rectangle_U4');
+
+  const rectangle0 = document.querySelector('.text0');
+  const rectangle2 = document.querySelector('.text2');
+  const rectangle3 = document.querySelector('.text3');
+  const rectangle5 = document.querySelector('.text5');
+  const rectangle6 = document.querySelector('.text6');
+  const rectangle1 = document.querySelector('.text1');
+  const rectangle7 = document.querySelector('.text7');
+  const rectangle8 = document.querySelector('.text8');
+
+ circle2_1_1.addEventListener('mouseenter', function() {
+  rectangle0.classList.add('highlight');
+  rectangle1.classList.add('highlight');
+  rectangle7.classList.add('highlight');
+  rectangle8.classList.add('highlight');
+  rectangle2.classList.add('highlight');
+  rectangle3.classList.add('highlight');
+  rectangle5.classList.add('highlight');
+  rectangle6.classList.add('highlight');
+
+
+});
+
+// Add mouseleave event listener to circle_0
+circle2_1_1.addEventListener('mouseleave', function() {
   rectangle0.classList.remove('highlight');
   rectangle1.classList.remove('highlight');
   rectangle7.classList.remove('highlight');
@@ -351,6 +430,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Add mouseleave event listener to circle_0
 circle2.addEventListener('mouseleave', function() {
+  rectangle0.classList.remove('highlight');
+  rectangle1.classList.remove('highlight');
+  rectangle7.classList.remove('highlight');
+  rectangle8.classList.remove('highlight');
+  rectangle2.classList.remove('highlight');
+
+});
+}); 
+
+//UMA mobile 
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Attempt to get the element by class name
+ const circle2_1 = document.querySelector('.rectangle_U3');
+
+  const rectangle0 = document.querySelector('.text0');
+  const rectangle2 = document.querySelector('.text2');
+  const rectangle1 = document.querySelector('.text1');
+  const rectangle7 = document.querySelector('.text7');
+  const rectangle8 = document.querySelector('.text8');
+
+ circle2_1.addEventListener('mouseenter', function() {
+  rectangle0.classList.add('highlight');
+  rectangle1.classList.add('highlight');
+  rectangle7.classList.add('highlight');
+  rectangle8.classList.add('highlight');
+  rectangle2.classList.add('highlight');
+
+
+});
+
+// Add mouseleave event listener to circle_0
+circle2_1.addEventListener('mouseleave', function() {
   rectangle0.classList.remove('highlight');
   rectangle1.classList.remove('highlight');
   rectangle7.classList.remove('highlight');
