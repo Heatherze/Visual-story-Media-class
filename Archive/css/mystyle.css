@@ -187,6 +187,8 @@ div.storytext {
   width:100%;
   max-width: 780px;
   margin: 0 auto 0 auto;
+  font-family: "IvarText-Regular","Georgia",serif;    
+
 }
 /*here is mine*/
 
@@ -222,6 +224,15 @@ div.storytext {
     width: 10%; /* You can adjust this percentage as needed */
 
 }
+
+
+.person-icon-container_1 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+
+}
+
 
 
 .Kayla{
@@ -317,9 +328,12 @@ div.storytext {
     margin-left: auto; 
     margin-right: auto; 
     max-width: 800px; 
-    font-family: "IvarText-Regular","Georgia",serif;
-    
+    font-family: "IvarText-Regular","Georgia",serif;    
 }
+
+
+
+
 .smallphoto{
     margin-left: 20px;
     
@@ -354,14 +368,9 @@ transform: translateX(-50%);
     animation: walk 30s linear infinite; /* Adjust animation duration as needed */
   }
 
-  .big-letter {
-    font-size: 50px; /* Adjust the font size as needed */
-    font-weight: bold; /* Adjust the font weight as needed */
-    float: left; /* Set the float property to left */
-    margin-top: -2%;
-    margin-bottom: -2%;
-    width: 8%;
-  }
+
+
+
 
   
 /*PHOTO*/ 
@@ -482,6 +491,9 @@ font-weight: bold;
   transition: background-color 0.2s; /* Add transition for smooth effect */
 }
 
+
+
+
 .rectangle_U1:hover,
 .rectangle_U2:hover,
 .rectangle_U3:hover,
@@ -535,6 +547,8 @@ font-family: "Staff-Regular","Arial",serif;
   .text-replacement {
       display: block; /* Show the text replacement on mobile */
       margin-top: 30%;
+      text-align: center; /* Center text inside the element */
+margin-left: 15px;
   }
   /* Hide the images on mobile */
   .rectangle {
@@ -690,7 +704,7 @@ border: 3px solid #FBC24C ; /* Change to your desird highlight color */
   background-color: #F6F2E1;
   padding: 1rem;
   margin: 5% auto;;
-  width: 60%;
+  width: 90%;
 }
 
 @media screen and (max-width: 768px) {
@@ -969,3 +983,102 @@ opacity: 0; /* Initially hide the text */
        text-align: right;
        color: #FBC24C;
   }
+
+
+
+  /*supreme court*/
+
+  .courtcontainer {
+    padding: 30px;
+    background-color: #F6F2E1;
+                width: 100%;
+    margin: 20px auto;
+}
+
+.courtcontainer h2 {
+    font-family: "Staff-Bold","Arial",sans-serif;
+    font-size: 1.3em;
+}
+
+.courtchart {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-column-gap: 30px;
+  background-color: #F6F2E1;
+}
+
+@media only screen and (max-width: 600px) {
+  .courtcontainer {
+      width: 100%; /* Adjust width for mobile dimensions */
+      margin-left: -20%;
+      padding: 50px; /* Increase padding for mobile */
+  }
+
+  .courtchart {
+      width: 100%; /* Adjust width for mobile dimensions */
+      margin: 20px auto;
+      grid-column-gap: 20px; /* Adjust grid gap for mobile */
+  }
+
+  .justice {
+      margin-left: 5%;
+      width: 60%; /* Adjust width for the third column in mobile view */
+  }
+
+  .courtchart .justice img {
+      width: 10%;
+      border-radius: 50%; /* make it round. NOTE original image must be square for this to work */
+  }
+
+  .justice figcaption {
+      font-family: "Staff-Bold","Arial",sans-serif;
+      font-size: 0.8em;
+      text-align: center;
+      width: 100%; /* Set width to fill the container */
+      margin-top: 10px; /* Adjust margin as needed */
+  }
+}
+
+
+
+
+.justice {
+  display: block;
+  width: 100%; /* Set width to fill the container */
+}
+
+
+
+.courtchart .justice img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* make it round. NOTE original image must be square for this to work */
+}
+
+.justice figcaption {
+  font-family: "Staff-Bold","Arial",sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  width: 100%; /* Set width to fill the container */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+
+.harvard {
+    border: 9px solid #CD395B; /*red border for Hahvid */
+}
+
+.yale {
+    border: 9px solid #286dc0; /*blue for Yale */
+}   
+
+.nd {
+    border: 9px solid #FBC24C; /*gold for Notre Dame */
+} 
+
+@media only screen and (max-width: 600px) {
+  .courtchart {
+      grid-template-columns: repeat(3, 1fr); /* Stack into a 3x3 grid on mobile */
+  }
+}
+
